@@ -35,7 +35,7 @@ public class ReactNativeFirebaseAppRegistrar implements ComponentRegistrar {
     return Collections.singletonList(
       LibraryVersionComponent.create(
         "react-native-firebase",
-        BuildConfig.VERSION_NAME
+        "6.4.0"
       )
     );
   }
